@@ -1,0 +1,37 @@
+Wpvp (Placeholder Name: RPPVP, JaikesMap, Factions
+
+Investigate TRP3's system that scans area and position of players. Have this apply to guild
+tags on map. To show territories they lay claim to. If possible to comm with opposing faction
+to allow guilds that want to be flagged and show their land claim. To see the zones of action
+for solo players. Only users that have addon can see positions of own factions, or other
+faction is allowed, but only concentual with other faction individuals wanting to give
+their guild or personal position.
+
+##
+Connecting data between faction.
+    ver1: Using Blizz's new cross realm/faction "community" system to upkeep comm between
+    either 2 idle accounts that gives info to chat about all info it's receiving or through
+    every users communicating in chat and being filtered by user's own addon.
+    
+    ver2: Uses spy accounts, meaning players that are willing to let their addons comm 
+    with cross faction about the info that is allowed by the addon. 
+    Not actual spying, but concensual info about themselves they want to give other addon users cross faction.
+##    
+Creating WorldDefence Chat
+
+    Ver1: Community Channel: all addon users will be part of the share comm channel that
+    auto comms the "%s is under attack" (UA); if posted in past 5 mins, ignores inc UA.
+    Timer starts from original alert that ends at 6 mins. Doesn't reset this timer unless
+    the UA trigger happens. Upon expiry, UA status goes back to N/A.
+
+Guilds TRP3-like feature
+    Allow fellow faction players to see guilds. Can either be the land claimed area the
+    guild resides, or the guildies themselves as guild icons. These can also used
+    for cross faction guild claims. If icon_size proximity to other guild, then guild
+    can agree on coop or dipute. ONLY Rank 1 can initiate position (he can however set
+    his rank limit on who can lay claim or reposition). Must have 50 members (to avoid
+    singular, non-serious guilds from overwhelming map with their own avatar). 
+    Must have 10 members online to represent? (to also clean up temp guilds)
+    
+
+    

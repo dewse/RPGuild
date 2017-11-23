@@ -1,0 +1,85 @@
+
+
+Brainstorm:
+
+  Decide how stand-alone program will be. If focus is on portability for popular
+programs like Discord. Decide if we want to run C++ or HTML5. If HTML5 can support
+all the functions we want to implement, then it will be so.
+
+MODULES
+____________________________________________________________
+~~ LAND CLAIMS ~~
+  Guild land ownership coordination, interacts with other users with addon/app to
+show on map. potential 10x10 px avatar. If player is the GM of a guild, app will
+recognize that and allow them to set this land claim. BIG potential here if we
+run with idea
+
+Startup APP? Use this single feature to launch the rest of the app. If they enjoyed
+this, we just MOTD of the full APP.
+
+To streamline, could have interface of map and players on APP itself instead
+of relying on the in-game resources.
+This will allow for the APP itself to comm with other user's APP and not
+have to rely on LUA comm.
+
+If possible, then overlay like discord.
+
+King of the Hill event triggered by schedule OR guild fed [Using credits]
+
+Wpvp-oriented
+
+Can work on same concept as TRP3 and show guild icons on the map. May be too
+cluttered if it showed everyone. Maybe high rank, or no player movement.
+_____________________________________________________________
+~~ BANK & RESOURCES ~~
+  Interact with bank. Screenshot, or mouse-over to inventory. Shoots return to collective add-on.
+    -Can view (snapshotted) gbank out of game.
+    -Can also set expected inventory on items for refill or guild turn-in.
+    Discord webhooks potential.
+
+~~ RP WIKI ~~
+  RP Wiki embedded or plug-in to existing web-app module (i.e. Enjin, Wikimedia, etc.)
+
+~~ POINT SYSTEM ~~
+  Allow easy seamless experience that gives power to distribute points to guildies
+  to later be redeemed for anything (think gear from raids, resources from bank,
+  priority for limited events, etc). APP recognizes content and person sent to,
+  or appointed individuals with persmission can input. The more auto it is, the
+  better.
+
+  Points could expand to guilds as well. Think of way that guilds could build
+  their rep or points. Points then can be used to trigger events like the King
+  of the Hill, or guild bounty another guild.
+____________________________________________________________
+~~ GUILD INFO DATABASE ~~
+For RP guilds that don't want to have a hosted website. This will allow lots of
+info to be displayed (within reason), but would require paid hosting or income.
+This would also allow a quick peak into a guild without having to look up their
+guild. Ultimately, getting a database of all the guilds that exist on the realm
+and have some sort of interaction with the database. Tagging definers. Guilds
+opening bounties for others to know.
+
+~~ PLAYER DATABASE ~~
+Same as above, but on a player database. This will be a lot heavier if we add this.
+It would be amazing, but requires an immense database and hosting if the info is
+big, and beyond text.
+
+Personal Stats against other players.
+- Arch-Nemesis (Player has killed you a lot)
+- Nemesis (Player has had a lot of fights against you (win or loss))
+- Ally (Player has fought along side of you)
+- Friend (Player has fought many times along side you)
+
+416 math 5083 5084
+brayd@etsb.qc.ca
+
+~~ BOUNTY BOARD ~~
+This board will publicly show the available bounties and requirements.
+Addon register the name and call up a function to screenshot the kill (with
+possible hash and time verification to prevent false ones) and allow user to submit
+the screenshot (after making sure the screenshot isn't showing something private)
+Maybe direct DM in discord. Also could use combatlog pickup to send a hash by DM
+to the user asking for bounty or a discord BOT that then auto rewards user by sending
+message back to APP server.
+
+Bounties could also be set against other guilds. Point system could be involved.
